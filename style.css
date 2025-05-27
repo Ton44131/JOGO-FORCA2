@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(135deg, #ffcb05 0%, #ffffff 100%);
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    color: #2a2a2a;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#area {
+    background-color: #ffffffcc;
+    border: 4px solid #3b4cca;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#forca {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    max-width: 90%;
+}
+
+#dica {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e60012;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#palavra {
+    margin: 15px;
+    font-size: 24px;
+    letter-spacing: 8px;
+    color: #222;
+}
+
+u {
+    margin: 0 4px;
+    font-size: 1.5em;
+    border-bottom: 4px solid #3b4cca;
+    padding: 5px 6px;
+}
+
+#teclado {
+    margin-top: 25px;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+    border: 2px solid #3b4cca;
+    border-radius: 50%;
+    background: radial-gradient(circle at top left, #ffffff 20%, #ff1a1a 80%);
+    color: #000;
+    box-shadow: 0 4px #222;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: radial-gradient(circle at bottom right, #ffffff 20%, #cc0000 80%);
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: #999;
+    color: #eee;
+    box-shadow: none;
+}
+
+button.certo {
+    background: radial-gradient(circle at center, #ffffff 20%, #44bd32 80%);
+    color: #fff;
+    border-color: #2d6a4f;
+}
